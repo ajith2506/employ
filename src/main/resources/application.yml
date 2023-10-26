@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security
+    username: postgres
+    password: sql25
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+
+
+
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://demo-dev-3448.7s5.cockroachlabs.cloud/yaantrac
+#    username: ajith
+#    password: -7K91ljeeaTv8I3jMIEApw
+#  driver-class-name: org.postgresql.Driver
+#  dbcp2:
+#    test-while-idle: true
+#  validation-query: select 1
+#  jpa:
+#    properties:
+#      hibernate:
+#        jdbc:
+#          lob:
+#            non_contextual_creation: true
+#            ddl-auto: update
